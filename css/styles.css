@@ -1,0 +1,14 @@
+html {
+	font-size:62.5%;
+}
+
+/*------ Typography ------*/
+
+h1 {
+	font-family:'Univers W01', Times, sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	color: red;
+}
+
+/*------ Containers ------*/
