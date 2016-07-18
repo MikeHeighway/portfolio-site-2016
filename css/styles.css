@@ -2,13 +2,84 @@ html {
 	font-size:62.5%;
 }
 
+/*------ Color Systems ------*/
+
+.c-blk {
+	color: #23282e;
+}
+
+.c-wht {
+	color: #fff;
+}
+
+.c-bg-blk {
+	background-color: #23282e;
+}
+
 /*------ Typography ------*/
+
+.txt-lft {
+	text-align: left;
+}
 
 h1 {
 	font-family:'Univers W01', Times, sans-serif;
 	font-weight: 800;
+	font-size: 2.4rem;
 	font-style: normal;
-	color: red;
 }
 
+p {
+	font-family:'Univers W01', Times, sans-serif;
+	font-weight: 400;
+	font-size: 1.1rem;
+	font-style: normal;
+}
+
+a:link {
+	text-decoration: underline;
+	color: #23282e;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a:visited {
+	color: #23282e;
+}
+
+/*------ Decorations ------*/
+
+.hr-thk {
+	border: none;
+	height: 0.4rem;
+	width: auto;
+}
+
+.mrgn-no {
+	margin: 0;
+}
+
+.pad-big-top-30 {
+	padding-top: 30rem;
+}
+
+.pad-sml-bot-1 {
+	padding-bottom: 1rem;
+}
+
+.pad-med-lft-10 {
+	padding-left: 10rem;
+}
+
+
 /*------ Containers ------*/
+body {
+	height: 100vh;
+}
+
+#main {
+	width: 40rem;
+	height: 40rem;
+}
