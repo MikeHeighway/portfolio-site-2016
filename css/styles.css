@@ -19,7 +19,7 @@ html {
 /*------ Typography ------*/
 
 /*Tablet & Desktop*/
-@media (max-width: 768px) {
+@media (max-width: 321px) {
 	
 	h1 {
 		font-family:'Univers W01', Times, sans-serif;
@@ -54,7 +54,6 @@ html {
 	}
 }
 
-
 /* Basic Typography Styles */
 
 .txt-lft {
@@ -74,11 +73,10 @@ a:visited {
 	color: #23282e;
 }
 
-
 /*------ Structural Elements ------*/
 
-/*Tablet & Desktop*/
-@media (min-width: 768px) {
+/*  Tablet & Desktop  */
+@media (min-width: 321px) {
 	.hr-thk {
 		border: none;
 		height: 0.4rem;
@@ -107,7 +105,7 @@ a:visited {
 	}
 }
 
-/*Mobile*/
+/*  Mobile  */
 @media (max-width: 320px) {
 	.m-hr-thk {
 		border: none;
