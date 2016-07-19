@@ -18,27 +18,27 @@ html {
 
 /*------ Typography ------*/
 
+
 /* Mobile */
-@media (max-width: 320px), (max-width: 767px) {
+@media (min-width: 320px), (min-device-width: 320px){
 	
 	h1 {
 		font-family:'Univers W01', Times, sans-serif;
 		font-weight: 800;
-		font-size: 3rem;
+		font-size: 6rem;
 		font-style: normal;
 	}
 
 	p {
 		font-family:'Univers W01', Times, sans-serif;
 		font-weight: 400;
-		font-size: 1.8rem;
+		font-size: 3.6rem;
 		font-style: normal;
 	}
 }
 
-
 /* Tablet & Desktop */
-@media (min-width: 768px) {
+@media (min-device-width: 768px) {
 	
 	h1 {
 		font-family:'Univers W01', Times, sans-serif;
@@ -54,6 +54,8 @@ html {
 		font-style: normal;
 	}
 }
+
+
 
 /* Basic Typography Styles */
 
@@ -76,8 +78,38 @@ a:visited {
 
 /*------ Structural Elements ------*/
 
+/*  Mobile  */
+@media (min-width: 320px), (min-device-width: 320px) {
+	.m-hr-thk {
+		border: none;
+		height: 0.8rem;
+		width: auto;
+		min-width: 8rem;
+	}
+
+	.m-mrgn-no {
+		margin: 0;
+	}
+
+	.m-pad-big-top-60 {
+		padding-top: 60rem;
+	}
+
+	.m-pad-sml-bot-1 {
+		padding-bottom: 1rem;
+	}
+
+	.m-pad-med-lft-5 {
+		padding-left: 5rem;
+	}
+
+	.m-pad-med-rgt-5 {
+		padding-right: 5rem;
+	}
+}
+
 /*  Tablet & Desktop  */
-@media (min-width: 768px) {
+@media (min-device-width: 768px) {
 	.hr-thk {
 		border: none;
 		height: 0.4rem;
@@ -106,41 +138,21 @@ a:visited {
 	}
 }
 
-/*  Mobile  */
-@media (max-width: 320px), (max-width: 767px) {
-	.m-hr-thk {
-		border: none;
-		height: 0.8rem;
-		width: auto;
-		min-width: 8rem;
-	}
-
-	.m-mrgn-no {
-		margin: 0;
-	}
-
-	.m-pad-big-top-15 {
-		padding-top: 15rem;
-	}
-
-	.m-pad-sml-bot-1 {
-		padding-bottom: 1rem;
-	}
-
-	.m-pad-med-lft-5 {
-		padding-left: 5rem;
-	}
-
-	.m-pad-med-rgt-5 {
-		padding-right: 5rem;
-	}
-}
 
 
 /*------ Containers ------*/
 body {
 	height: 100vh;
 }
+/*  Mobile  */
+@media (min-width: 320px),(min-device-width: 320px) {
+
+#main {
+	max-width: 60rem;
+	max-height: 40rem;
+}
+
+@media (min-device-width: 768px) {
 
 #main {
 	max-width: 40rem;
