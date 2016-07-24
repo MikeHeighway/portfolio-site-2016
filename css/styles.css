@@ -16,6 +16,14 @@ html {
 	background-color: #23282e;
 }
 
+.c-bg-wht {
+	background-color: #fff;
+}
+
+.alp-80 {
+	opacity: 0.8;
+}
+
 /*------ Typography ------*/
 
 
@@ -43,15 +51,30 @@ html {
 	h1 {
 		font-family:'Univers W01', Times, sans-serif;
 		font-weight: 800;
-		font-size: 2.4rem;
+		font-size: 2.8rem;
+		font-style: normal;
+	}
+
+	h2 {
+		font-family:'Univers W01', Times, sans-serif;
+		font-weight: 700;
+		font-size: 1.8rem;
+		font-style: normal;
+	}
+
+	h3 {
+		font-family:'Univers W01', Times, sans-serif;
+		font-weight: 700;
+		font-size: 1.4rem;
 		font-style: normal;
 	}
 
 	p {
 		font-family:'Univers W01', Times, sans-serif;
 		font-weight: 400;
-		font-size: 1.1rem;
+		font-size: 1.3rem;
 		font-style: normal;
+		line-height: 1.8rem;
 	}
 }
 
@@ -66,6 +89,7 @@ html {
 a:link {
 	text-decoration: underline;
 	color: #23282e;
+	font-weight: 700;
 }
 
 a:hover {
@@ -121,6 +145,54 @@ a:visited {
 		margin: 0;
 	}
 
+	.mrgn-no-top {
+		margin-top: 0;
+	}
+
+	.mrgn-no-bot {
+		margin-bottom: 0;
+	}
+
+	.mrgn-no-lft {
+		margin-left: 0;
+	}
+
+	.mrgn-no-rgt {
+		margin-right: 0;
+	}
+
+	.mrgn-xs-top-1 {
+		margin-top:1rem;
+	}
+
+	.mrgn-xs-bot-1 {
+		margin-bottom:1rem;
+	}
+
+	.mrgn-sml-top-2 {
+		margin-top:2rem;
+	}
+
+	.mrgn-big-top-30 {
+		margin-top: 30rem;
+	}
+
+	.mrgn-med-lft-10 {
+		margin-left: 10rem;
+	}
+
+	.pad-all-5{
+		padding: 5rem;
+	}
+
+	.pad-all-3{
+		padding: 3rem;
+	}
+
+	.pad-xs-bot-0p5 {
+		padding-bottom:0.5rem;
+	}
+
 	.pad-big-top-30 {
 		padding-top: 30rem;
 	}
@@ -143,6 +215,8 @@ a:visited {
 /*------ Containers ------*/
 body {
 	height: 100vh;
+	display: flex;
+	align-items: center;
 }
 /*  Mobile  */
 @media (min-width: 320px) {
