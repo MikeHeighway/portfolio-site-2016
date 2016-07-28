@@ -20,9 +20,15 @@ html {
 	background-color: #fff;
 }
 
+.c-bg-wht-a { 
+	background: rgba(255,255,255,0.8);
+
+}
+
 .alp-80 {
 	opacity: 0.8;
 }
+
 
 /*------ Typography ------*/
 body {
@@ -30,11 +36,23 @@ body {
 }
 
 /* Mobile */
-@media (min-width: 320px), (min-width: 320px){
+@media (min-width: 320px){
 	
-	h1 {
+	h2 {
 		font-weight: 800;
 		font-size: 3rem;
+		font-style: normal;
+	}
+
+	h3 {
+		font-weight: 700;
+		font-size: 1.8rem;
+		font-style: normal;
+	}
+
+	h4 {
+		font-weight: 700;
+		font-size: 1.5rem;
 		font-style: normal;
 	}
 
@@ -43,14 +61,21 @@ body {
 		font-size: 1.8rem;
 		font-style: normal;
 	}
+
+	.p-footer {
+		font-weight: 200;
+		font-size: 1.3rem;
+		font-style: normal;
+	}
 }
+
 
 /* Tablet & Desktop */
 @media (min-width: 768px) {
 	
 	h2 {
 		font-weight: 800;
-		font-size: 2.8rem;
+		font-size: 2.4rem;
 		font-style: normal;
 	}
 
@@ -109,13 +134,29 @@ a:visited {
 @media (min-width: 320px) {
 	.m-hr-thk {
 		border: none;
-		height: 0.8rem;
+		height: 0.4rem;
 		width: auto;
-		min-width: 8rem;
+		min-width: 4rem;
 	}
 
 	.m-mrgn-no {
 		margin: 0;
+	}
+
+	.m-mrgn-no-top {
+		margin-top: 0;
+	}
+
+	.m-mrgn-no-bot {
+		margin-bottom: 0;
+	}
+
+	.m-mrgn-xs-top-0p5 {
+		margin-top: 0.5rem;
+	}
+
+	.m-mrgn-xs-top-1 {
+		margin-top: 1rem;
 	}
 
 	.m-pad-big-top-20 {
@@ -165,16 +206,24 @@ a:visited {
 		margin-right: 0;
 	}
 
+	.mrgn-xs-top-0p5 {
+		margin-top: 0.5rem;
+	}
+
 	.mrgn-xs-top-1 {
-		margin-top:1rem;
+		margin-top: 1rem;
 	}
 
 	.mrgn-xs-bot-1 {
-		margin-bottom:1rem;
+		margin-bottom: 1rem;
+	}
+
+	.mrgn-xs-top-1p5 {
+		margin-top: 1.5rem;
 	}
 
 	.mrgn-sml-top-2 {
-		margin-top:2rem;
+		margin-top: 2rem;
 	}
 
 	.mrgn-big-top-30 {
@@ -221,39 +270,67 @@ a:visited {
 
 
 /*------ Containers ------*/
+
 body {
 	display: inline-flex;
 	flex-direction: column;
 	flex-wrap: wrap;
 	justify-content: center;
 }
+
+
 /*  Mobile  */
-@media (max-width: 320px) {
-	#intro {
+
+@media (min-width: 320px) {
+
+	.m-wrapper {
+		padding: 0 3.5rem 0 3.5rem;
+	}
+
+	.m-top-fold {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		height: 100vh;
+		width: 100vw;
+	}
+
+	#m-intro {
 		max-width: 30rem;
 		/*max-height: 20rem;*/
 	}
 }
+
+
+/*  Tablet  */
+@media (min-width: 415px) {
+	.t-body {
+		background: #fff;
+	}
+}
+
+
 /*  Desktop  */
+
 @media (min-width: 768px) {
 	
-	body {
-		width: 100vw;
+	.dt-body {
+		max-width: 100vw;
+		background: url("../img/Mike-Main-Image-05.jpg"); 
+		background-size: cover;
+		background-repeat: no-repeat;
 	}
 
 	.wrapper {
-		display: inline-flex;
-		flex-wrap: wrap;
-		justify-content: flex-start;
+		
 		width: 76rem;
-		background: grey;
 	}
 
 	.cont-wdth-30 {
 		width: 30rem;
 	}
 
-	#top-fold {
+	.top-fold {
 		display: inline-flex;
 		align-items: center;
 		justify-content: center;
@@ -288,7 +365,10 @@ body {
 	}
 
 	footer {
-
+		display: inline-flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		flex-direction: row;
 	}
 
 }
