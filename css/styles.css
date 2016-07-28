@@ -138,7 +138,7 @@ a:visited {
 /*  Tablet & Desktop  */
 @media (min-width: 768px) {
 
-		.hr-thk {
+	.hr-thk {
 		border: none;
 		height: 0.4rem;
 		width: auto;
@@ -223,6 +223,7 @@ a:visited {
 /*------ Containers ------*/
 body {
 	display: inline-flex;
+	flex-direction: column;
 	flex-wrap: wrap;
 	justify-content: center;
 }
@@ -242,11 +243,13 @@ body {
 
 	.wrapper {
 		display: inline-flex;
+		flex-wrap: wrap;
+		justify-content: flex-start;
 		width: 76rem;
 		background: grey;
 	}
 
-	.cont-30 {
+	.cont-wdth-30 {
 		width: 30rem;
 	}
 
@@ -255,7 +258,12 @@ body {
 		align-items: center;
 		justify-content: center;
 		height: 100vh;
-		width: 100%;
+		width: 100vw;
+	}
+
+	#bottom-fold {
+		display: inline-flex;
+		justify-content: center;
 	}
 
 	#intro {
@@ -270,7 +278,7 @@ body {
 
 	.portfolio-fw {
 		height: 25.2rem;
-		width: 100%;
+		width: 100vw;
 		background: coral;
 		border: solid;
 	}
@@ -280,7 +288,7 @@ body {
 	}
 
 	footer {
-		width: 100%;
+
 	}
 
 }
