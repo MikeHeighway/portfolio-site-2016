@@ -48,19 +48,19 @@ body {
 /* Tablet & Desktop */
 @media (min-width: 768px) {
 	
-	h1 {
+	h2 {
 		font-weight: 800;
 		font-size: 2.8rem;
 		font-style: normal;
 	}
 
-	h2 {
+	h3 {
 		font-weight: 700;
 		font-size: 1.8rem;
 		font-style: normal;
 	}
 
-	h3 {
+	h4 {
 		font-weight: 700;
 		font-size: 1.4rem;
 		font-style: normal;
@@ -137,7 +137,8 @@ a:visited {
 
 /*  Tablet & Desktop  */
 @media (min-width: 768px) {
-	.hr-thk {
+
+		.hr-thk {
 		border: none;
 		height: 0.4rem;
 		width: auto;
@@ -223,31 +224,53 @@ a:visited {
 body {
 	display: inline-flex;
 	flex-wrap: wrap;
+	justify-content: center;
 }
 /*  Mobile  */
-@media (min-width: 320px) {
+@media (max-width: 320px) {
 	#intro {
 		max-width: 30rem;
-		max-height: 20rem;
+		/*max-height: 20rem;*/
 	}
 }
 /*  Desktop  */
 @media (min-width: 768px) {
 	
+	body {
+		width: 100vw;
+	}
+
+	.wrapper {
+		display: inline-flex;
+		width: 76rem;
+		background: grey;
+	}
+
+	.cont-30 {
+		width: 30rem;
+	}
+
 	#top-fold {
 		display: inline-flex;
 		align-items: center;
+		justify-content: center;
 		height: 100vh;
+		width: 100%;
 	}
 
 	#intro {
-		max-width: 40rem;
-		max-height: 40rem;
+		max-width: 36rem;
+	}
+
+	#body-of-work {
+		display: inline-flex;
+		flex-wrap: wrap;
+		width: 100vw;
 	}
 
 	.portfolio-fw {
 		height: 25.2rem;
-		width: 100vw;
+		width: 100%;
 		background: coral;
 		border: solid;
 	}
@@ -257,7 +280,7 @@ body {
 	}
 
 	footer {
-		width: 100vw;
+		width: 100%;
 	}
 
 }
