@@ -163,10 +163,18 @@ a:visited {
 		padding-top: 20rem;
 	}
 
+	.m-pad-all-2p5 {
+		padding: 2.5rem;
+	}
+
 	.m-pad-sml-bot-1 {
 		padding-bottom: 1rem;
 	}
 
+	.m-pad-all-3p5 {
+		padding: 3.5rem;
+	}
+	
 	.m-pad-med-lft-5 {
 		padding-left: 5rem;
 	}
@@ -226,8 +234,20 @@ a:visited {
 		margin-top: 2rem;
 	}
 
-	.mrgn-big-top-30 {
-		margin-top: 30rem;
+	.mrgn-lft-2 {
+		margin-left: 2rem;
+	}
+
+	.mrgn-rgt-2 {
+		margin-right: 2rem;
+	}
+	
+	.mrgn-lft-4p5 {
+		margin-left: 4.5rem;
+	}
+
+	.mrgn-rgt-4p5 {
+		margin-right: 4.5rem;
 	}
 
 	.mrgn-med-lft-10 {
@@ -238,12 +258,20 @@ a:visited {
 		margin-right: 10rem;
 	}
 
-	.pad-all-5{
-		padding: 5rem;
+	.mrgn-big-top-30 {
+		margin-top: 30rem;
 	}
 
-	.pad-all-3{
-		padding: 3rem;
+	.pad-no {
+		padding: 0;
+	}
+	
+	.pad-all-2p5{
+		padding: 2.5rem;
+	}
+
+	.pad-all-5{
+		padding: 5rem;
 	}
 
 	.pad-xs-bot-0p5 {
@@ -283,10 +311,6 @@ body {
 
 @media (min-width: 320px) {
 
-	.m-wrapper {
-		padding: 0 3.5rem 0 3.5rem;
-	}
-
 	.m-top-fold {
 		display: inline-flex;
 		align-items: center;
@@ -295,16 +319,13 @@ body {
 		width: 100vw;
 	}
 
-	#m-intro {
-		max-width: 30rem;
-		/*max-height: 20rem;*/
-	}
 }
 
 
 /*  Tablet  */
+
 @media (min-width: 415px) {
-	.t-body {
+	.t-top-fold {
 		background: #fff;
 	}
 }
@@ -312,25 +333,20 @@ body {
 
 /*  Desktop  */
 
-@media (min-width: 768px) {
-	
-	.dt-body {
-		max-width: 100vw;
-		background: url("../img/Mike-Main-Image-05.jpg"); 
-		background-size: cover;
-		background-repeat: no-repeat;
-	}
+@media (min-width: 769px) {
 
 	.wrapper {
-		
 		width: 76rem;
 	}
 
-	.cont-wdth-30 {
-		width: 30rem;
+	.cont-wdth-31 {
+		width: 31rem;
 	}
 
 	.top-fold {
+		background: url("../img/Mike-Main-Image-05.jpg"); 
+		background-size: cover;
+		background-repeat: no-repeat;
 		display: inline-flex;
 		align-items: center;
 		justify-content: center;
@@ -343,7 +359,7 @@ body {
 		justify-content: center;
 	}
 
-	#intro {
+	.intro {
 		max-width: 36rem;
 	}
 
@@ -369,6 +385,10 @@ body {
 		justify-content: center;
 		flex-wrap: wrap;
 		flex-direction: row;
+	}
+
+	.footer-wrap {
+		width: 72rem;
 	}
 
 }
