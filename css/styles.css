@@ -77,7 +77,11 @@ body {
 
 	.p-fine-print {
 		font-weight: 200;
-		font-size: 1.1rem;
+		font-size: 1.2rem;
+	}
+
+	.p-fine-heavy {
+		font-weight: 600;
 	}
 
 	ul {
@@ -130,11 +134,23 @@ body {
 		font-style: normal;
 		line-height: 1.8rem;
 	}
+
+	.p-fine-print {
+		font-weight: 200;
+		font-size: 1.2rem;
+	}
+
+	.p-fine-heavy {
+		font-weight: 600;
+	}
+
+	.p-caption {
+		font-weight: 200;
+		font-size: 1.2rem;
+	}
 }
 
-
-
-/* Basic Typography Styles */
+/* Global Typography */
 
 .txt-lft {
 		text-align: left;
@@ -153,6 +169,14 @@ a:hover {
 a:visited {
 	color: #23282e;
 }
+
+/*------ Decoration ------*/
+
+.brdr-1 {
+	border: solid;
+	border-width: 0.1rem;
+}
+
 
 /*------ Structural Elements ------*/
 
@@ -272,6 +296,10 @@ a:visited {
 		margin-top: 4rem;
 	}
 
+	.mrgn-top-only-10 {
+		margin: 10rem 0 0 0;
+	}
+	
 	.mrgn-lft-4p5 {
 		margin-left: 4.5rem;
 	}
@@ -312,8 +340,18 @@ a:visited {
 		padding-top: 1.5rem;
 	}
 
-	.pad-big-top-30 {
-		padding-top: 30rem;
+	.pad-xcpt-top-2p5 {
+		padding-top: 0;
+		padding-right: 2.5rem;
+		padding-bottom: 2.5rem;
+		padding-left: 2.5rem;
+	}
+
+	.pad-xcpt-bot-2p5 {
+		padding-top: 2.5rem;
+		padding-right: 2.5rem;
+		padding-bottom: 0;
+		padding-left: 2.5rem;
 	}
 
 	.pad-bot-1 {
@@ -327,6 +365,11 @@ a:visited {
 	.pad-rgt-10 {
 		padding-right: 10rem;
 	}
+
+	.pad-big-top-30 {
+		padding-top: 30rem;
+	}
+
 }
 
 
@@ -383,7 +426,6 @@ body {
 		justify-content: center;
 		width: 90rem;
 	}
-	
 
 	/* Portfolio Containers */
 	.cont-block-half {
@@ -391,11 +433,19 @@ body {
 	}
 
 	.cont-block-full {
-		width: 100%;
+		width: 90rem;
 	}
 
 	.cont-block-full-vw {
 		width: 100vw;
+	}
+	
+	.div-cntr-vert {
+		margin: auto 0 auto 0;
+	}
+	/* Title Container for equal div spacing below */
+	.cont-title {
+		width: 100%;
 	}
 
 	/* Resizes Image to Container*/
@@ -438,8 +488,9 @@ body {
 	}
 
 	/* Class to center all portfolio projects */
-	#portfolio-project {
+	.portfolio-project {
 		display: inline-flex;
+		flex-wrap: wrap;
 		justify-content: center;
 	}
 
