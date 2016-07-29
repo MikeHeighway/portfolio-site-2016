@@ -373,21 +373,32 @@ body {
 	}
 
 	.wrapper {
-		width: 76rem;
+		width: 90rem;
 	}
 
 	.wrapper-flex {
 		display: inline-flex;
-		flex-wrap: nowrap;
+		flex-wrap: wrap;
 		flex-direction: row;
-		width: 76rem;
+		justify-content: center;
+		width: 90rem;
+	}
+	
+
+	/* Portfolio Containers */
+	.cont-block-half {
+		width: 40rem;
 	}
 
-	.cont-wdth-31 {
-		width: 31rem;
+	.cont-block-full {
+		width: 100%;
 	}
 
-	/*Resizes Image to Container*/
+	.cont-block-full-vw {
+		width: 100vw;
+	}
+
+	/* Resizes Image to Container*/
 	.img-container {
 		max-width: 100%;
 	}
@@ -409,7 +420,7 @@ body {
 	}
 
 	.intro {
-		max-width: 36rem;
+		max-width: 40rem;
 	}
 
 	#body-of-work {
@@ -444,7 +455,7 @@ body {
 	}
 
 	.footer-wrap {
-		width: 72rem;
+		width: 86rem;
 	}
 
 }
