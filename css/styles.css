@@ -71,7 +71,7 @@ body {
 
 	.p-footer {
 		font-weight: 200;
-		font-size: 1.3rem;
+		font-size: 1.2rem;
 		font-style: normal;
 	}
 
@@ -86,9 +86,9 @@ body {
 
 	ul {
 		font-weight: ;
-		font-size: 1.3rem;
+		font-size: 1.8rem;
 		list-style: none;
-		line-height: 2rem;
+		line-height: 2.4rem;
 	}
 
 }
@@ -137,7 +137,7 @@ body {
 
 	.p-fine-print {
 		font-weight: 200;
-		font-size: 1.2rem;
+		font-size: 1.3rem;
 	}
 
 	.p-fine-heavy {
@@ -146,7 +146,14 @@ body {
 
 	.p-caption {
 		font-weight: 200;
+		font-size: 1.3rem;
+	}
+
+	ul {
+		font-weight: ;
 		font-size: 1.2rem;
+		list-style: none;
+		line-height: 2rem;
 	}
 }
 
@@ -217,8 +224,8 @@ a:visited {
 		margin-top: 1rem;
 	}
 
-	.m-pad-top-20 {
-		padding-top: 20rem;
+	.m-pad-top-2 {
+		padding-top: 2rem;
 	}
 
 	.m-pad-bot-1 {
@@ -231,6 +238,10 @@ a:visited {
 
 	.m-pad-rgt-5 {
 		padding-right: 5rem;
+	}
+
+	.m-pad-no {
+		padding: 0;
 	}
 }
 
@@ -320,6 +331,8 @@ a:visited {
 		margin-top: 30rem;
 	}
 
+/* Padding */
+
 	.pad-no {
 		padding: 0;
 	}
@@ -393,9 +406,21 @@ body {
 		align-items: center;
 		justify-content: center;
 		height: 100vh;
+	}
+
+	#body-of-work {
+		display: inline-flex;
+		flex-wrap: wrap;
 		width: 100vw;
 	}
 
+.m-portfolio-fw {
+		display: inline-flex;
+		justify-content: center;
+		align-content: center;
+		height: 40rem;
+		width: 100vw;	
+	}
 }
 
 
@@ -517,6 +542,7 @@ body {
 .logo {
 	object-fit: contain;
 }
+
 .bg-curated {
 	background: #3e3e44;
 }
