@@ -77,11 +77,16 @@ body {
 
 	.p-fine-print {
 		font-weight: 200;
-		font-size: 1.2rem;
+		font-size: 1.8rem;
 	}
 
 	.p-fine-heavy {
 		font-weight: 600;
+	}
+
+	.p-aside {
+		font-weight: 200;
+		font-size: 1.2rem;
 	}
 
 	.p-caption {
