@@ -255,6 +255,10 @@ a:visited {
 		padding-bottom: 1rem;
 	}
 
+	.m-pad-top-4 {
+		padding-top: 4rem;
+	}
+
 	.m-pad-lft-5 {
 		padding-left: 5rem;
 	}
