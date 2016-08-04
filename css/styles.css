@@ -84,6 +84,11 @@ body {
 		font-weight: 600;
 	}
 
+	.p-caption {
+		font-weight: 200;
+		font-size: 1.3rem;
+	}
+
 	ul {
 		font-weight: ;
 		font-size: 1.8rem;
@@ -216,6 +221,13 @@ a:visited {
 
 	.m-pad-all-2p5 {
 		padding: 2.5rem;
+	}
+
+	.m-pad-xcpt-top-2p5 {
+		padding-top: 0;
+		padding-right: 2.5rem;
+		padding-bottom: 2.5rem;
+		padding-left: 2.5rem;
 	}
 
 	.m-pad-all-3p5 {
@@ -420,11 +432,37 @@ body {
 
 @media (min-width: 320px) {
 
+	.m-nav {
+		display: none;
+	}
+
 	.m-top-fold {
 		display: inline-flex;
 		align-items: center;
 		justify-content: center;
 		height: 100vh;
+	}
+
+.m-flex-wrap-cntr {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.m-wrapper-flex-row {
+		display: inline-flex;
+		flex-direction: column;
+		justify-content: center;
+		max-width: 100vw;
+	}
+
+	.m-cont-block-half {
+		width: 100vw;
+	}
+
+.img-container {
+		max-width: 100%;
 	}
 
 	#body-of-work {
