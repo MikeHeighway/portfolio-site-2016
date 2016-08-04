@@ -187,6 +187,12 @@ a:visited {
 
 /*------ Structural Elements ------*/
 
+.just-cont {
+	display: flex;
+	justify-content: center;
+}
+
+
 /*  Mobile  */
 @media (min-width: 320px) {
 	.m-hr-thk {
@@ -442,6 +448,10 @@ body {
 
 	.wrapper {
 		width: 90rem;
+	}
+
+	nav {
+		max-height: 5rem;
 	}
 
 	.wrapper-inline-flex {
