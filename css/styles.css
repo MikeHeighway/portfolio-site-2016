@@ -32,7 +32,7 @@ html {
 
 /*------ Typography ------*/
 body {
-	font-family:'Univers W01', Times, sans-serif;
+	font-family:'Univers W01', Helvetica, Times, sans-serif;
 }
 
 /* Mobile */
@@ -456,6 +456,34 @@ a:visited {
 		padding-bottom: 0.5rem;
 	}
 
+	.pad-cont-block-half-lft {
+		padding-top: 2.5rem;
+		padding-right: 1.25rem;
+		padding-bottom: 2.5rem;
+		padding-left: 2.5rem;
+	}
+
+	.pad-cont-block-half-rgt {
+		padding-top: 2.5rem;
+		padding-right: 2.5rem;
+		padding-bottom: 2.5rem;
+		padding-left: 1.25rem;
+	}
+
+	.pad-cont-block-half-lft-no-top {
+		padding-top: 0rem;
+		padding-right: 1.25rem;
+		padding-bottom: 2.5rem;
+		padding-left: 2.5rem;
+	}
+
+	.pad-cont-block-half-rgt-no-top {
+		padding-top: 0rem;
+		padding-right: 2.5rem;
+		padding-bottom: 2.5rem;
+		padding-left: 1.25rem;
+	}
+
 	.pad-top-2p5 {
 		padding-top: 2.5rem;
 	}
@@ -472,6 +500,13 @@ a:visited {
 		padding-right: 2.5rem;
 		padding-bottom: 0;
 		padding-left: 2.5rem;
+	}
+
+	.pad-no-xcpt-bot-2p5 {
+		padding-top: 0rem;
+		padding-right: 0rem;
+		padding-bottom: 2.5rem;
+		padding-left: 0rem;
 	}
 
 	.pad-rgt-1 {
@@ -613,14 +648,34 @@ a:visited {
 		justify-content: space-between;
 		align-content: center;
 	}
+	
+	.nav-wrapper-flex {
+		display: inline-flex;
+		align-content: center;
+	}
+
+	.nav-wrapper-flex-sub {
+		display: inline-flex;
+		justify-content: flex-end;
+		align-content: center;
+		min-width: 30rem;
+	}
 
 	/* Portfolio Containers */
 	.cont-block-half {
-		width: 40rem;
+		min-width: 41.25rem;
+	}
+
+	.cont-block-half-img {
+		min-width: 41.25rem;
 	}
 
 	.cont-block-full {
 		width: 90rem;
+	}
+
+	.cont-block-full-img {
+		width: 85rem;
 	}
 
 	.cont-block-full-vw {
