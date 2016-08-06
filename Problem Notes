@@ -3,3 +3,6 @@ Cannot get white box to center vertically. wtf?
 
 Links:
 Mobile is defined, so is "regular" but it won't take the "regular" stylings, even with a discreet class.
+
+Nav links will not take styling either.
+How do you set the baseline for the nav links to be on same baseline as "mike heighway?"

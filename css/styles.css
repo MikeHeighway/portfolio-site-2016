@@ -179,6 +179,14 @@ body {
 		line-height: 2rem;
 	}
 
+	nav-ul {
+		font-weight: 600;
+		font-size: 1.2rem;
+		list-style-type: none;
+		line-height: 2rem;
+		text-decoration: none;
+	}
+
 	a:link {
 	border-bottom: 1px solid;
 	padding-bottom: 0.2rem;
@@ -196,16 +204,16 @@ body {
 	border-bottom: none;
 	}
 
+	a:visited {
+		text-decoration: none;
+	}
 
-	nav > div > ul {
+
+	nav > ul {
 		display: inline-flex;
 		flex-direction: row;
 		justify-content: flex-end;
 		align-content: flex-end;
-		width:30rem;
-		font-size: 1.2rem;
-		list-style-type: none;
-		line-height: 2rem;
 	}
 }
 
@@ -584,7 +592,7 @@ a:visited {
 		align-content: flex-end;
 	}
 
-/* Centers 1/2 and Full Container Blocks within */
+/* Centers 1/2 and Full Container Blocks Go In This */
 	.wrapper-flex-fw {
 		display: inline-flex;
 		max-width: 90rem;
