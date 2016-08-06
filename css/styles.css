@@ -105,6 +105,16 @@ body {
 		line-height: 3rem;
 	}
 
+	.m-a:link {
+	border-bottom: 1px solid;
+	padding-bottom: 0.2rem;
+	color: #23282e;
+	font-weight: 700;
+	font-size: 1.8rem;
+	line-height: 2.8rem;
+	text-decoration: none;
+}
+
 }
 
 
@@ -169,6 +179,22 @@ body {
 		line-height: 2rem;
 	}
 
+	a:link {
+	border-bottom: 1px solid;
+	padding-bottom: 0.2rem;
+	color: #23282e;
+	font-weight: 700;
+	font-size: 1.3rem;
+	line-height: 2.4rem;
+	text-decoration: none;
+	}
+
+	a:hover {
+	text-decoration: none;
+	color: #23282e;
+	font-weight: 400;
+	border-bottom: none;
+	}
 
 
 	nav > div > ul {
@@ -189,20 +215,6 @@ body {
 		text-align: left;
 	}
 
-a:link {
-	border-bottom: 1px solid;
-	padding-bottom: 0.2rem;
-	color: #23282e;
-	font-weight: 700;
-	text-decoration: none;
-}
-
-a:hover {
-	text-decoration: none;
-	color: #23282e;
-	font-weight: 400;
-	border-bottom: none;
-}
 
 a:visited {
 	color: #23282e;
