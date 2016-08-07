@@ -634,6 +634,10 @@ a:visited {
 		align-content: flex-end;
 	}
 
+	.wrapper-min {
+		min-width: 90rem;
+	}
+
 /* Centers 1/2 and Full Container Blocks Go In This */
 	.wrapper-flex-fw {
 		display: inline-flex;
@@ -648,6 +652,7 @@ a:visited {
 		align-content: center;
 	}
 
+/* NAVIGATION */
 	nav {
 		max-height: 10rem;
 		display: inline-flex;
@@ -669,6 +674,8 @@ a:visited {
 		min-width: 30rem;
 	}
 
+
+
 	/* Flex Order */
 
 	.order-1 {
@@ -686,7 +693,7 @@ a:visited {
 	}
 
 	.cont-block-half-max {
-		min-width: 41.25rem;
+		max-width: 42.5rem;
 	}
 
 	.cont-block-half-img {
