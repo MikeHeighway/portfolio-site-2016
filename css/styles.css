@@ -560,7 +560,6 @@ a:visited {
 		height: 100vh;
 	}
 
-
 	.m-wrapper-flex-column {
 		display: inline-flex;
 		flex-direction: column;
@@ -588,6 +587,14 @@ a:visited {
 		align-content: center;
 		height: 40rem;
 		width: 100vw;	
+	}
+
+	.m-order-1 {
+		order: 1;
+	}
+
+	.m-order-2 {
+		order: 2;
 	}
 }
 
@@ -630,6 +637,7 @@ a:visited {
 /* Centers 1/2 and Full Container Blocks Go In This */
 	.wrapper-flex-fw {
 		display: inline-flex;
+		flex-direction: row;
 		max-width: 90rem;
 	}
 
@@ -661,8 +669,23 @@ a:visited {
 		min-width: 30rem;
 	}
 
+	/* Flex Order */
+
+	.order-1 {
+		order: 1;
+	}
+
+	.order-2 {
+		order: 2;
+	}
+
+
 	/* Portfolio Containers */
 	.cont-block-half {
+		min-width: 41.25rem;
+	}
+
+	.cont-block-half-max {
 		min-width: 41.25rem;
 	}
 
@@ -685,6 +708,7 @@ a:visited {
 	.div-cntr-vert {
 		margin: auto 0 auto 0;
 	}
+
 	/* Title Container for equal div spacing below */
 	.cont-title {
 		width: 100%;
@@ -696,6 +720,9 @@ a:visited {
 	}
 
 	.top-fold {
+		display: flex;
+		justify-content: center;
+		align-content: center;
 		background: url("../img/Mike-Main-Image-05.jpg"); 
 		background-size: cover;
 		background-repeat: no-repeat;
