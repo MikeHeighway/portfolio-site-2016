@@ -796,26 +796,50 @@ a:visited {
 	object-fit: contain;
 }
 
-.bg-curated {
-	background: #3e3e44;
+.logo-apple {
+	background: #fff;
 }
 
 .logo-arosteguy {
 	background: #fff;
 }
 
-.logo-skinlove {
-	background: #df2830;
+.logo-cobble {
+	background: #fff;
 }
 
 .logo-comomo {
 	background: #384049;
 }
 
+.bg-curated {
+	background: #3e3e44;
+}
+
+.logo-fontwear {
+	background: #fff;
+}
+
+.logo-gioco {
+	background: #b4353b;
+}
+
+.logo-hp {
+	background: #5093d5;
+}
+
+.logo-nhms {
+	background: #b5c83b;
+}
+
+.logo-nhsd {
+	background: #874d27;
+}
+
 .logo-obsidian {
 	background: #1a1e25;
 }
 
-.logo-cobble {
-	background: #fff;
+.logo-skinlove {
+	background: #df2830;
 }
