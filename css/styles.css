@@ -793,7 +793,7 @@ a:visited {
 		height: 100vh;
 	}
 
-	.body-of-work {
+	#body-of-work {
 		display: flex;
 		flex-wrap: wrap;
 	}
@@ -888,4 +888,8 @@ a:visited {
 
 .logo-skinlove {
 	background: #df2830;
+}
+
+.logo-toadroad {
+	background: #373538;
 }
