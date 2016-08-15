@@ -532,6 +532,14 @@ a:visited {
 	.pad-bot-1 {
 		padding-bottom: 1rem;
 	}
+	
+	.pad-rgt-1p25 {
+		padding-right: 1.25rem;
+	}
+
+	.pad-lft-1p25 {
+		padding-left: 1.25rem;
+	}
 
 	.pad-lft-2p5 {
 		padding-left: 2.5rem;
@@ -539,6 +547,10 @@ a:visited {
 
 	.pad-rgt-2p5 {
 		padding-right: 2.5rem;
+	}
+	
+	.pad-top-5 {
+		padding-top: 5rem;
 	}
 
 	.pad-lft-10 {
@@ -758,6 +770,7 @@ a:visited {
 
 	/* Resizes Image to Container*/
 	.img-container {
+		display: flex;
 		max-width: 100%;
 	}
 
