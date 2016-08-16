@@ -57,7 +57,7 @@ body {
 
 	h5 {
 		font-weight: 700;
-		font-size: 1.5rem;
+		font-size: 2rem;
 		text-transform: uppercase;
 	}
 
@@ -294,12 +294,51 @@ a:visited {
 		margin-top: 0;
 	}
 
+	.m-mrgn-no-lft {
+		margin-left: 0;
+	}
+
+	.m-mrgn-no-rgt {
+		margin-right: 0;
+	}
+
 	.m-mrgn-no-bot {
 		margin-bottom: 0;
 	}
 
 	.m-mrgn-all-2p5 {
 		margin: 2.5rem;
+	}
+
+	.m-mrgn-top-2p5 {
+		margin-top: 2.5rem;
+	}
+
+	.m-mrgn-rgt-2p5 {
+		margin-right: 2.5rem;
+	}
+
+	.m-mrgn-bot-2p5 {
+		margin-bottom: 2.5rem;
+	}
+
+	.m-mrgn-lft-2p5 {
+		margin-left: 2.5rem;
+	}
+
+	.m-mrgn-xcpt-top-2p5 {
+		margin-top: 0;
+		margin-right: 2.5rem;
+		margin-bottom: 2.5rem;
+		margin-left: 2.5rem;
+	}
+
+	.m-mrgn-top-5 {
+		margin-top: 5rem;
+	}
+
+	.m-mrgn-bot-10 {
+		margin-bottom: 10rem;
 	}
 
 	.m-pad-all-2p5 {
@@ -432,6 +471,14 @@ a:visited {
 		margin-right: 2rem;
 	}
 	
+	.mrgn-lft-2p5 {
+		margin-left: 2.5rem;
+	}
+
+	.mrgn-rgt-2p5 {
+		margin-right: 2.5rem;
+	}
+
 	.mrgn-top-4 {
 		margin-top: 4rem;
 	}
@@ -446,6 +493,22 @@ a:visited {
 
 	.mrgn-rgt-4p5 {
 		margin-right: 4.5rem;
+	}
+
+	.mrgn-top-5 {
+		margin-top: 5rem;
+	}
+
+	.mrgn-bot-5 {
+		margin-bottom: 5rem;
+	}
+
+	.mrgn-top-10 {
+		margin-top: 10rem;
+	}
+
+	.mrgn-bot-10 {
+		margin-bottom: 10rem;
 	}
 
 	.mrgn-lft-10 {
@@ -547,6 +610,10 @@ a:visited {
 		padding-left: 1.25rem;
 	}
 
+	.pad-top-2p5 {
+		padding-top: 2.5rem;
+	}
+
 	.pad-lft-2p5 {
 		padding-left: 2.5rem;
 	}
@@ -557,6 +624,10 @@ a:visited {
 	
 	.pad-top-5 {
 		padding-top: 5rem;
+	}
+
+	.pad-bot-5 {
+		padding-bottom: 5rem;
 	}
 
 	.pad-lft-10 {
@@ -576,10 +647,10 @@ a:visited {
 
 
 /*--------------------- Containers ---------------------*/
-.body {
+	.body {
 	display: flex;
 	width: 100vw;
-}
+	}
 
 /*  Mobile  */
 
@@ -743,6 +814,16 @@ a:visited {
 	/* Portfolio Containers */
 	.cont-block-half {
 		min-width: 41.25rem;
+	}
+
+	.cont-block-half-lft {
+		margin-left: 2.5rem;
+		margin-right: 1.25rem;
+	}
+
+	.cont-block-half-rgt {
+	margin-left: 1.25rem;
+	margin-right: 2.5rem;
 	}
 
 	.cont-block-half-max {
