@@ -879,9 +879,12 @@ a:visited {
 		flex-wrap: wrap;
 	}
 
-	#bottom-fold {
-		display: inline-flex;
-		justify-content: center;
+	#contact {
+		display: flex;
+		flex-wrap: nowrap;
+		flex-direction: row;
+		max-width: 90rem;
+		margin: 0 auto;
 	}
 
 	.intro {
