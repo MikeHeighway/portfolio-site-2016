@@ -242,7 +242,7 @@ a:visited {
 
 .portfolio-link {
 	transform: scale(1, 1);
-	transition: all 1000ms cubic-bezier(0.23, 1, 0.32, 1);
+	transition: all 1500ms cubic-bezier(0.23, 1, 0.32, 1);
 
 }
 
@@ -648,8 +648,8 @@ a:visited {
 
 /*--------------------- Containers ---------------------*/
 	.body {
-	display: flex;
-	width: 100vw;
+		display: flex;
+		width: 100vw;
 	}
 
 /*  Mobile  */
@@ -822,8 +822,8 @@ a:visited {
 	}
 
 	.cont-block-half-rgt {
-	margin-left: 1.25rem;
-	margin-right: 2.5rem;
+		margin-left: 1.25rem;
+		margin-right: 2.5rem;
 	}
 
 	.cont-block-half-max {
@@ -832,6 +832,27 @@ a:visited {
 
 	.cont-block-half-img {
 		min-width: 41.25rem;
+	}
+
+	.cont-flex {
+		display: flex;
+		flex-wrap: nowrap;
+	}
+
+	.cont-flex-grow {
+		flex-grow: 1;
+	}
+
+	.cont-height-200 {
+		min-height: 20rem;
+	}
+
+	.cont-just {
+		justify-content: center;
+	}
+
+	.cont-align {
+		align-items: center;
 	}
 
 	.cont-block-full {
@@ -917,6 +938,18 @@ a:visited {
 		min-width: 85rem;
 	}
 
+	.salt-1 {
+		background: #f7e54d;
+	}
+
+	.salt-2 {
+		background: #cbd872;
+	}
+	
+	.salt-3 {
+		background: #7497b0;
+	}
+
 }
 
 
@@ -970,10 +1003,14 @@ a:visited {
 	background: #1a1e25;
 }
 
+.logo-salt {
+	background: #f5e35a;
+}
+
 .logo-skinlove {
 	background: #df2830;
 }
 
 .logo-toadroad {
-	background: #373538;
+	background: #353235;
 }
