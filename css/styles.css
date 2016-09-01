@@ -104,7 +104,7 @@ body {
 		line-height: 3rem;
 	}
 
-	.m-a:link {
+	a:link {
 	border-bottom: 1px solid;
 	padding-bottom: 0.2rem;
 	color: #23282e;
@@ -112,7 +112,35 @@ body {
 	font-size: 1.8rem;
 	line-height: 2.8rem;
 	text-decoration: none;
-}
+	}
+
+	a:link {
+	border-bottom: 1px solid;
+	padding-bottom: 0.2rem;
+	color: #23282e;
+	font-weight: 700;
+	font-size: 1.3rem;
+	line-height: 2.4rem;
+	text-decoration: none;
+	}
+
+	a:hover {
+	text-decoration: none;
+	color: #23282e;
+	font-weight: 400;
+	border-bottom: none;
+	}
+
+	a:visited {
+		border-bottom: 1px solid;
+		padding-bottom: 0.2rem;
+		color: #23282e;
+		font-weight: 700;
+		font-size: 1.3rem;
+		line-height: 2.4rem;
+		text-decoration: none;
+	}
+
 
 }
 
@@ -215,6 +243,12 @@ body {
 	}
 
 	a:visited {
+		border-bottom: 1px solid;
+		padding-bottom: 0.2rem;
+		color: #23282e;
+		font-weight: 700;
+		font-size: 1.3rem;
+		line-height: 2.4rem;
 		text-decoration: none;
 	}
 
